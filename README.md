@@ -1,15 +1,16 @@
 # Maintenance
 
-Static version of cancogen/portal with explorer and submission features disabled. To be used during maintenance outages.
+Static version of the VirusSeq portal-ui with explorer and submission features disabled.
+To be used during maintenance outages.
 
 Built using:
 
 - commit: 5cbf9ba5330c17ba5628d02dea246ac79afaee64
-- branch: https://github.com/cancogen-virus-seq/portal/tree/export-maintenance-site
+- branch: https://github.com/virusseq/portal-ui/tree/export-maintenance-site
 
 ## Building
 
-- checkout/clone portal repo from https://github.com/cancogen-virus-seq/portal
+- checkout/clone portal repo from https://github.com/virusseq/portal-ui
 - set env variables in `.env.local` in the root directory
 - build and export via next js `npx next build && npx next export`
 - take contents of `./out` folder and place them in this repo
